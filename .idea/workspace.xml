@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="95ec098a-d5e2-4d53-ac51-eacb8f1d0906" name="Changes" comment="1 version">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/online.school (3).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/config/AdminInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/controller/ClassController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/controller/GradeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/controller/ScheduleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/controller/SubjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/model/Attendance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/model/AttendanceStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/model/ClassEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/model/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/model/Schedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/model/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/model/TeacherSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/repository/AttendanceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/repository/ClassRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/repository/GradeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/repository/ScheduleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/repository/SubjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/repository/TeacherSubjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/service/AttendanceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/service/ClassService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/service/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/service/GradeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/service/ScheduleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/service/SecurityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/service/SubjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/service/TeacherSubjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/service/impl/AttendanceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/service/impl/ClassServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/service/impl/GradeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/service/impl/ScheduleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/service/impl/SubjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/service/impl/TeacherSubjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/java/com/online/school/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online.school/src/test/java/com/online/school/ApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="359CTSl9NPr61tFCNnlj9pJPKsL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/arzyk/Desktop/online_shcool(3)",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="ms-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.online.school.Application" />
+      <module name="online.school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.online.school.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95ec098a-d5e2-4d53-ac51-eacb8f1d0906" name="Changes" comment="" />
+      <created>1762512907322</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762512907322</updated>
+      <workItem from="1762914742775" duration="660000" />
+      <workItem from="1762924098905" duration="61000" />
+      <workItem from="1762924181310" duration="235000" />
+      <workItem from="1762924452677" duration="78000" />
+      <workItem from="1762951176034" duration="676000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1 version" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 version" />
+  </component>
+</project>
