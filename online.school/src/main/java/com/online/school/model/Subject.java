@@ -1,0 +1,43 @@
+package com.online.school.model;
+
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+import lombok.*;
+
+import java.util.ArrayList;
+import java.util.List;
+
+@Entity
+@Table(name = "subjects")
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class Subject {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @NotBlank(message = "Subject name is required")
+    @Column(nullable = false, unique = true)
+    private String name;
+
+    private String description;
+
+    @OneToMany(mappedBy = "subject", cascade = CascadeType.ALL)
+    @Builder.Default
+    private List<TeacherSubject> teacherSubjects = new ArrayList<>();
+
+    @OneToMany(mappedBy = "subject", cascade = CascadeType.ALL)
+    @Builder.Default
+    private List<Grade> grades = new ArrayList<>();
+
+    @OneToMany(mappedBy = "subject", cascade = CascadeType.ALL)
+    @Builder.Default
+    private List<Schedule> schedules = new ArrayList<>();
+
+    @OneToMany(mappedBy = "subject", cascade = CascadeType.ALL)
+    @Builder.Default
+    private List<Attendance> attendances = new ArrayList<>();
+}
